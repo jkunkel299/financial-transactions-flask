@@ -7,7 +7,7 @@ This is a web application developed using Python in the Flask microframework. Th
 The application has four different web pages. 
 
 The Transaction Records page displays all the transactions entries created in the system. This page gives an option to Edit and Delete the available entries, as well as the option of adding a new entry. 
-When the '/balance' route is called in the URL, this page will also display the total balance of all transactions. 
+When the '/balance' path is added to the URL, this page will also display the total balance of all transactions. 
 
 The Add Transaction page is used when the user chooses to add the entry on the previous page (Transaction Records). The user adds the Date and Amount values for the new entry, then is redirected to the Transaction Records page, where their entry has been added to the list of transactions. 
 
